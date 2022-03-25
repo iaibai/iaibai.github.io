@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Awesome Title Pending
+title: Trial by Error
 description: >- # this means to ignore newlines until "baseurl:"
-  Web Development related blogging.
+  Web Development related experiments and .
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elecmonk
@@ -29,7 +29,7 @@ instagram_username: elecmonk
 linkedin_username: iain-baird-56b00249
 
 # Build settings
-theme: jekyll-theme-clean-blog
+remote_theme: jekyll-theme-clean-blog
 paginate: 5
 paginate_path: "/posts/page:num/"
 plugins:
