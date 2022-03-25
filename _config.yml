@@ -20,7 +20,7 @@
 
 title: Trial by Error
 description: >- # this means to ignore newlines until "baseurl:"
-  Web Development related experiments and .
+  Web Development related experiments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elecmonk
