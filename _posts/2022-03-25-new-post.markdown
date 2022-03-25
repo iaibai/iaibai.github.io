@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "New Post!"
+categories: update
+---
+
+# My First Post
+
+Wow we've come a long way in half an hour. It's been great to share this journey with you.
