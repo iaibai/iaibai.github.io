@@ -54,5 +54,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+minima:
   social_links:
     instagram:  elecmonk
