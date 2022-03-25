@@ -2,6 +2,8 @@
 layout: post
 title:  "New Post!"
 categories: update
+subtitle: "this is subtitle"
+background: '/img/headers/silverstone.jpg'
 ---
 
 # My First Post
