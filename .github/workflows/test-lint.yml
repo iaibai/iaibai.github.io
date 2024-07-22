@@ -1,5 +1,8 @@
 name: Test and Lint
 
+env:
+  GITHUB_REFE: ${{ github.event.pull_request.base.ref == 'master' && github.ref || github.event.pull_request.head.sha }}
+
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
@@ -11,5 +14,5 @@ jobs:
     if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
-      - run: echo hello
+      - run: echo $GITHUB_REFE
 
